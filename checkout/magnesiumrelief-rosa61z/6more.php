@@ -1693,6 +1693,49 @@ body,
         margin-bottom:30px !important;
     }
 }
+/* separator-consistent-spacing-final */
+.warming-oil-source section{
+    border-bottom:1px solid #e8e3d9 !important;
+    padding:0 0 30px !important;
+    margin:0 0 30px !important;
+}
+.warming-oil-source section:last-child{
+    border-bottom:0 !important;
+    padding-bottom:12px !important;
+    margin-bottom:12px !important;
+}
+.warming-oil-source h2{
+    margin:0 0 16px !important;
+}
+.warming-oil-source .line,
+.warming-oil-source .gline,
+.warming-oil-source .xline{
+    margin:0 0 13px !important;
+}
+.warming-oil-source section > .line:last-child,
+.warming-oil-source section > .gline:last-child,
+.warming-oil-source section > .xline:last-child{
+    margin-bottom:0 !important;
+}
+.warming-oil-source .photo{
+    margin:14px auto 18px !important;
+}
+.warming-oil-source .greenbox,
+.warming-oil-source .xbox{
+    margin:16px 0 18px !important;
+}
+.warming-oil-source .pricebox{
+    margin:18px auto 0 !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source section{
+        padding-bottom:26px !important;
+        margin-bottom:26px !important;
+    }
+    .warming-oil-source h2{
+        margin-bottom:15px !important;
+    }
+}
 </style>
 
 </head>
